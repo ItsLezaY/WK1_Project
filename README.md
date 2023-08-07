@@ -2,10 +2,10 @@
 
 Our names separate sections we did in comments:
 
-Kenai - (navbar/footer/6 cards on Landing & How it Works)
+Kenai - (navbar/footer/6 cards on Landing & How it Works), Used bootstrap for her portions
 
 Nico - (Landing Page)
 
-Leza - (Landing Page/How it Works)
+Leza - (Landing Page/How it Works), Project management, edited merged file, added some styles in the .htmls and another .css file to lessen issues with merged styles.
 
 Melissa - (Sign-in/Sign-up)

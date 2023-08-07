@@ -62,3 +62,8 @@
     margin: 5%;
     flex-direction: row;
   }
+
+  .kenai-cards {
+    max-width: 100%;
+    display: block;
+  }

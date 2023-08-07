@@ -14,6 +14,22 @@
 
 <link rel="stylesheet" href="./Styles/Landing_Top.css">
 
+<!-- Nico's stylesheet -->
+
+<link rel="stylesheet" href="./Styles/Main.css">
+
+<!-- Kenai's stylesheet / links to google fonts/etc -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./Styles/reset.css">
+<link rel="stylesheet" href="./Styles/landing_kenai.css">
+
 
 <title>Landing</title>
 
@@ -24,6 +40,54 @@
 
 
 <main>
+
+    <header>
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+              src="Images/logo.png"
+              height="25"
+              alt="DoubleTap Logo"
+              loading="lazy"
+            /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item me-4">
+                  <a class="nav-link active" aria-current="page" href="Landing.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-4" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-4" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-4" href="How-it-works.html">How it works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Support</a>
+                </li>
+              </ul>
+    
+    
+              <div class="d-flex align-items-center">
+                <button type="button" class="btn btn-outline-primary px-4 me-3">
+                  Sign in
+                </button>
+                <button type="button" class="btn btn-primary px-4 me-3">
+                  Try it free
+                </button>
+              </div>
+             
+            </div>
+          </div>
+        </nav>
+    <!-- Navbar -->
+      </header>
 
     <div class="flex-container">
         <div class="left-card">
@@ -64,102 +128,79 @@
 
       </div>
 
-      <b><hr style="margin-left: 8rem; margin-right: 9rem; margin-top: 4rem; color: #D9D9D9; height: 0.1875rem;"></b>
+      <b><hr style="margin-left: 8rem; margin-right: 9rem; margin-top: 4rem; color: grey; height: 0.1875rem;"></b>
+
+      <div class="container_n3">
+        <div class="container_n1">
+            <div class="doubletap">
+            <h2>Start to explore Double Tap</h2>
+            <p>A new and better way for small business to manage their customers base, payments, and keep track of internal tasks.</p>
+            </div>
+            <div class="images_n1">
+                <div class="images_container">
+                    <img src="./Images/Landing_Page_Images/Frame.png" alt="...">
+                    <p>Payments</p>
+                </div>
+                <div class="images_container">
+                    <img src="./Images/Landing_Page_Images/Frame-2.png" alt="...">
+                    <p>Retention</p>
+                </div>
+                <div class="images_container">
+                    <img src="./Images/Landing_Page_Images/Frame-3.png" alt="...">
+                    <p>Reporting</p>
+                </div>
+                <div class="images_container">
+                    <img src="./Images/Landing_Page_Images/Frame-4.png" alt="...">
+                    <p>Conversions</p>
+                </div>
+    
+            </div>
+    
+        </div>
 
 
-</main>
+        <div class="container_n2">
+            <img src="./Images/Landing_Page_Images/credit-card.png" alt="...">
+            <div class="card_n">
+                <div class="card_n2" style="padding-top: 1rem">
+                <h3 style="font-size: 1.5rem;">Start accepting payments with ease</h3>
+                <p style="font-size: 1rem">Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you for your products and services.</p>
+                </div>
+                <ul class="list_n" style="margin-left: 3rem;">
+                    <li>Process transactions in up to 32 different currencies</li>
+                    <li>Integrate with popular payment gateways like Stripe and Braintree</li>
+                    <li>Accept credit & debit cards, PayPal, ACH, Apple Pay and more with the swipe of a finger</li>
+                    <li>Select from a variety of different checkout options and experiences</li>
+                </ul>
+                <div class="button">
+                    <p>Learn more</p>
+                    <img src="./Images/Landing_Page_Images/Vector.svg" alt="">
+                </div>
+            </div>
+    
+        </div>
+        
+    </div>
 
 
-</body>
+<!-- </body> -->
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 
+<section style="text-align: center; margin-top: 2.5rem">
+    <h2><b>Solutions to fit your business needs</b></h2>
+</section>
+<!-- <body> -->
 
-</html>
-
-<!-- new code below - Kenai -->
-
-<!doctype html>
-<html lang="en">
-
-<head>
-  <title>Landing</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS v5.2.1 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <!-- google font links -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Styles/reset.css">
-    <link rel="stylesheet" href="./Styles/landing_kenai.css">
-  
-</head>
-
-<body>
-  <header>
-    <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img
-          src="Images/logo.png"
-          height="25"
-          alt="DoubleTap Logo"
-          loading="lazy"
-        /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item me-4">
-              <a class="nav-link active" aria-current="page" href="Landing.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-4" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-4" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-4" href="How-it-works.html">How it works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Support</a>
-            </li>
-          </ul>
-
-
-          <div class="d-flex align-items-center">
-            <button type="button" class="btn btn-outline-primary px-4 me-3">
-              Sign in
-            </button>
-            <button type="button" class="btn btn-primary px-4 me-3">
-              Try it free
-            </button>
-          </div>
-         
-        </div>
-      </div>
-    </nav>
-<!-- Navbar -->
-  </header>
-
-  <main>
 <!-- body where cards go -->
 <!-- first row of cards in a section tag -->
 <section>
-<div class="container d-flex justify-content-center" style="background-color: rgb(248, 248, 248);">
+<div class="container d-flex justify-content-center">
   <div class="row">
     <div class="col-lg p-4">
-      <div class="card" style="width:250px">
+      <div class="card border-0" style="width:250px">
         <img class="card-img-top" src="/Images/email-card.png" alt="Email">
         <div class="card-body">
           <h4 class="card-title fw-bold text-center">Email Dashboards</h4>
@@ -174,7 +215,7 @@
 
     </div>
     <div class="col-lg p-4">
-      <div class="card" style="width:250px">
+      <div class="card border-0" style="width:250px">
         <img class="card-img-top" src="/Images/task-mgmt.png" alt="Email">
         <div class="card-body">
           <h4 class="card-title fw-bold text-center">Task Management</h4>
@@ -192,10 +233,10 @@
 
 <!-- second section of cards -->
 <section>
-  <div class="container d-flex justify-content-center" style="background-color: rgb(248, 248, 248);">
+  <div class="container d-flex justify-content-center">
     <div class="row">
       <div class="col-lg p-4">
-        <div class="card" style="width:250px">
+        <div class="card border-0" style="width:250px">
           <img class="card-img-top" src="/Images/user-analytics.png" alt="Email">
           <div class="card-body">
             <h4 class="card-title fw-bold text-center">User Analytics</h4>
@@ -210,7 +251,7 @@
   
       </div>
       <div class="col-lg p-4">
-        <div class="card" style="width:250px">
+        <div class="card border-0" style="width:250px">
           <img class="card-img-top" src="/Images/proj-cal.png" alt="Email">
           <div class="card-body">
             <h4 class="card-title fw-bold text-center">Project Calendars</h4>
@@ -280,170 +321,4 @@
   </script>
 </body>
 
-</html>
-
-<!--Nico's code-->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-
-        .container_n1{
-            margin: auto;
-            display: flex;
-            flex-direction: column;
-            max-width: 48.5rem;
-            height: 19.75rem;
-        }
-        .doubletap{
-            align-self: center;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            max-width: 29rem;
-
-        }
-
-       
-
-        .images_n1{
-            display: flex;
-            justify-content: space-between;
-            gap: 2rem;
-        }
-
-        .images_container{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-left: 10px;
-            margin-right: 10px;
-            width: 9.375rem;
-            height: 10.625rem;
-            border-radius: 0.5rem;
-            background: var(--white, #FFF);
-            box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
-        }
-
-        .container_n2{
-            display: flex;
-            margin-top: 5.13rem;
-            max-width: 50rem;
-            height: 26.25rem;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 1rem;
-            background: var(--blue, #0D6EFD);
-            box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
-        }
-
-        .card_n{
-            color: white;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-        }
-
-        .card_n2{
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            max-width: 25rem;
-            margin-left: 2rem;
-        }
-
-
-        .list_n{
-            display: flex;
-            flex-direction: column;
-            max-width: 19.3125rem;
-        }
-
-        .button{
-            display: flex;
-            flex-direction: row;
-            margin-left: 2rem;
-            justify-content: space-around;
-            display: inline-flex;
-            border-radius: 0.5rem;
-            border: 2px solid var(--blue, #0D6EFD);
-            background: var(--white, #FFF);
-            max-width: 13.625rem;
-            height: 3.3125rem;
-
-        }
-
-        .button > p{
-            color: var(--blue, #0D6EFD);
-            font-family: Roboto;
-            font-size: 1.125rem;
-            font-weight: 700;
-        }
-
-        .button > img {
-            padding: 1rem;
-        }
-    
-
-
-
-    
-
-
-    </style>
-</head>
-<body class="container_n3">
-    <div class="container_n1">
-        <div class="doubletap">
-        <h2>Start to explore Double Tap</h2>
-        <p>A new and better way for small business to manage their customers base, payments, and keep track of internal tasks.</p>
-        </div>
-        <div class="images_n1">
-            <div class="images_container">
-                <img src="./Images/Nicosimages/Frame.png" alt="...">
-                <p>Payments</p>
-            </div>
-            <div class="images_container">
-                <img src="./Images/Nicosimages/Frame-2.png" alt="...">
-                <p>Retention</p>
-            </div>
-            <div class="images_container">
-                <img src="./Images/Nicosimages/Frame-3.png" alt="...">
-                <p>Reporting</p>
-            </div>
-            <div class="images_container">
-                <img src="./Images/Nicosimages/Frame-4.png" alt="...">
-                <p>Conversions</p>
-            </div>
-
-        </div>
-
-    </div>
-    <div class="container_n2">
-        <img src="./Images/Nicosimages/credit-card.png" alt="...">
-        <div class="card_n">
-            <div class="card_n2">
-            <h3 style="font-size: 1.5rem;">Start accepting payments with ease</h3>
-            <p>Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you for your products and services.</p>
-            </div>
-            <ul class="list_n">
-                <li>Process transactions in up to 32 different currencies</li>
-                <li>Integrate with popular payment gateways like Stripe and Braintree</li>
-                <li>Accept credit & debit cards, PayPal, ACH, Apple Pay and more with the swipe of a finger</li>
-                <li>Select from a variety of different checkout options and experiences</li>
-            </ul>
-            <div class="button">
-                <p>Learn more</p>
-                <img src="./Images/Nicosimages/Vector.svg" alt="">
-            </div>
-        </div>
-
-    </div>
-    
-</body>
 </html>
